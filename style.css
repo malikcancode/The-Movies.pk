@@ -1,0 +1,84 @@
+body {
+  box-sizing: border-box;
+  background-color: #1a1423;
+  color: white;
+}
+
+.main-conatiner {
+  width: 100%;
+  height: 100vh;
+}
+
+@media (max-width:1600px) {
+  .main-conatiner {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+.logo {
+  width: 5%;
+  height: auto;
+  object-fit: cover;
+}
+
+.navbar .list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.navbar li:hover {
+  color: red;
+}
+
+.pic-sec img {
+  width: 36%;
+  height: auto;
+  object-fit: cover;
+}
+
+.text .span {
+  font-size: 40px;
+  color: red;
+  font-family: Deadpool Movie;
+  letter-spacing: 2px;
+}
+
+.btn {
+  background-color: rgb(255, 6, 6);
+  font-size: 12px;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+.footer p {
+  font-size: 12px;
+}
